@@ -1,0 +1,5 @@
+ADD_LIBRARY(foo STATIC foo.cpp)
+
+install (TARGETS foo ARCHIVE DESTINATION
+    ${CMAKE_SOURCE_DIR}/lib
+)
